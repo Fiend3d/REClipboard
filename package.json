@@ -17,7 +17,9 @@
   ],
   "author": "Vlad Tagintsev",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "jsonfile": "^4.0.0"
+  },
   "devDependencies": {
     "electron": "1.7.9"
   }
