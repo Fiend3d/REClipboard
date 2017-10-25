@@ -1,6 +1,14 @@
 [
     {
-        "key":"ctrl+shift+v",
-        "regex":""
+        "key":"ctrl+shift+`",
+        "regex":"\\\\",
+        "modifier":"g",
+        "result":"/"
+    },
+    {
+        "key":"alt+shift+`",
+        "regex":"/",
+        "modifier":"g",
+        "result":"\\"
     }
 ]
