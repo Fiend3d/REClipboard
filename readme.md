@@ -1,5 +1,5 @@
 # ![RECLibboard](assets/icon_black_small.png) RegEx Clipboard
-This program allows you to change direction of slashes using global hotkeys which saves a lot of time if you work on windows. 
+This program allows you to change direction of slashes using global hotkeys which saves you a lot of time if you work in Windows. 
 ```cpp
 "C:\Program Files\CMake" -> "C:/Program Files/CMake"
 ```
