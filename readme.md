@@ -1,4 +1,4 @@
-# <img src="assets/icon_black.png" alt="RECLibboard" style="width: 64px;"/> RegEx Clipboard
+# ![RECLibboard](assets/icon_black_small.png) RegEx Clipboard
 This program allows you to change direction of slashes using global hotkeys. 
 
 ## Installing
