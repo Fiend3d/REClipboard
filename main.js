@@ -7,6 +7,15 @@ const {
   Tray
 } = require('electron')
 
+// single instance 
+const shouldExit = app.makeSingleInstance(() => {
+  // do nothing
+})	
+
+if (shouldExit) {
+ app.exit(1)
+}
+  
 const path = require('path')
 const jsonfile = require('jsonfile')
 
