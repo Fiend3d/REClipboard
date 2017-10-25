@@ -1,5 +1,9 @@
 # ![RECLibboard](assets/icon_black_small.png) RegEx Clipboard
 This program allows you to change direction of slashes using global hotkeys. 
+```
+"C:\Program Files\nodejs" -> "C:/Program Files/nodejs"
+```
+You can add any other expression you need. 
 
 ## Installing
 
