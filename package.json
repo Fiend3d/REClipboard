@@ -4,7 +4,9 @@
   "description": "Regex Clipboard",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
+    "test": "electron .",
+    "package-win": "electron-packager . reclipboard --overwrite --asar=true --platform=win32 --arch=x64 --icon=assets/icon_black.ico --prune=true --out=release-builds --version-string.CompanyName=\"Fiend3d\" --version-string.FileDescription=\"RegEx Clipboard\" --version-string.ProductName=\"REClipboard\"",    
+    "package-linux": "electron-packager . reclipboard --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icon_black.png --prune=true --out=release-builds" 
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "author": "Vlad Tagintsev",
   "license": "MIT",
   "dependencies": {
+    "electron-packager": "^9.1.0",
     "jsonfile": "^4.0.0"
   },
   "devDependencies": {

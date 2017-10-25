@@ -18,7 +18,7 @@ const settings_path = path.join(__dirname, 'settings.json')
 let tray = null
 let menuItem_enable = null
 
-const settings = jsonfile.readFileSync(settings_path)
+const settings = jsonfile.readFileSync(settings_path)  
 
 let setIcon = function() {
   if (menuItem_enable.checked) {
